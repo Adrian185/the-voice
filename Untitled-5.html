@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Voice Weboldal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #666;
+            padding: 0.5em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            margin: auto;
+        }
+
+        input, textarea {
+            margin-bottom: 1em;
+            padding: 0.5em;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 0.5em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The Voice Weboldal</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Untitled-1.html">Kezdőlap</a></li>
+            <li><a href="Untitled-2.html">Versenyzők</a></li>
+            <li><a href="Untitled-3.html">Epizódok</a></li>
+            <li><a href="Untitled-5.html">Kapcsolat</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Kapcsolat</h2>
+        <p>
+            Ha bármilyen kérdésed vagy észrevételed van, kérlek, írd meg nekünk az alábbi űrlapon keresztül.
+        </p>
+
+        <form>
+            <label for="name">Név:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Üzenet:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Küldés</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 The Voice Weboldal</p>
+    </footer>
+
+</body>
+</html>
